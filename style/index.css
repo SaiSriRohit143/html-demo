@@ -1,0 +1,159 @@
+#header{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#header img{
+    width: 100px;
+    padding: 10px;
+}
+
+#header h1{
+    text-transform: uppercase;
+    font-family:Cambria, cursive;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 250%;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* margin: 0 auto; */
+    position: absolute;
+        left: 450px;
+        top: 25px
+}
+
+#navlinks{
+    background-color: black;
+    height: 760px;
+    width: 150px;
+    padding: 5px;
+    line-height: 50px;
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: black;
+    margin: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+    
+    /* Change the link color on hover */
+    li a:hover {
+    background-color: #ff0000;
+    color: white;
+    }
+#main{
+    width: 700px;
+    height: 750px;
+    float: left;
+    padding: 10px;
+    text-align: justify;
+    color: white;
+
+    background-image: url(/image/batman.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fig
+{
+text-align:center;
+display:flex;
+}
+                
+#fig img{
+width: 200px;
+height: 200px;
+}
+
+.hello{
+text-align: center;
+border-radius: 25px;
+border: 5px solid #73AD21;
+padding: 5px;
+}
+#aside {
+    float:right;
+    background-color:black;
+    width:360px;
+    height:580px;
+    text-align:center;}
+    #foot {
+        background-color:black;
+        color:yellow;
+        clear:both;  /* do not allow floating elements on left or right side */
+        text-align:center;
+        padding:10px;	 	 
+    }
+    #aside form{background-color: #04AA6D;border-radius: 25px;}
+    h3{ background-color: aquamarine; color:blue}
+
+    /* form css*/
+form {border: 2px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+button {
+background-color:forestgreen;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: auto;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+.cancelbtn {
+width: auto;
+padding: 14px 20px;
+background-color: #f44336;
+}
+
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+img.avatar {
+width: 25%;
+border-radius: 50%;
+}
+
+.container {
+padding: 16px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+span.psw {
+float: right;
+padding-top: 30px;
+}
